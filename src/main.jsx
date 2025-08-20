@@ -1,4 +1,5 @@
 //component imports
+import { Toaster } from 'react-hot-toast';
 import App from './App.jsx'
 //css imports
 import './index.css'
@@ -11,6 +12,8 @@ import { BrowserRouter } from 'react-router-dom';
 
     <BrowserRouter>
         <App />
+        <Toaster />
+
 
     </BrowserRouter>
 );
