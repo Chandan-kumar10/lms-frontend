@@ -5,7 +5,9 @@ function App() {
 
   return (
    <>
-   lms
+   <Routes>
+    {/* <Route path="/" element={<Home />} ></Route> */}
+   </Routes>
    </>
   )
 }
